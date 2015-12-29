@@ -37,28 +37,29 @@
 
 .btn-default:hover {
 	border-color: #45a667;
-	background-color: #c2e5cf;
+	background-color: whitesmoke;
 	color: #45a667;
 }
 
 /* navbar */
 .navbar {
 	margin-bottom: 0px;
-	height: 65px;
+	height: 60px;
 	background-color: rgba(255,255,255,0.2);
 	border-radius: 0;
 }
 
 .navbar-header {
-	padding: 8px 100px;
+	padding: 3px 100px;
 }
 
 .navbar-right{
-	padding: 8px 100px;
+	padding: 3px 100px;
 }
 
 .navbar-default .navbar-nav>li>a {
-	color: #46d278;
+	color: black;
+	font-size: 16px;
 }
 
 .navbar-default .navbar-nav>li>a:hover {
@@ -67,7 +68,9 @@
 }
 
 .navbar-default .navbar-brand {
-	color: #46d278;
+	color: black;
+	font-weight: 700;
+	font-size: 20px;
 }
 
 .navbar-default .navbar-brand:hover {
