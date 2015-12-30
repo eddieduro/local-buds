@@ -77,3 +77,75 @@
 	color: #45a667;
 	text-decoration: underline;
 }
+
+/* weed div */
+.weed {
+	max-height: 150px;
+	width: auto; 
+	padding-bottom: 10px;
+	margin-top: 10px;
+	position: relative;
+	display: block;
+}
+
+.weed-types{
+	background-color: #f0f0f0;
+	height: 500px;
+}
+
+.weed-text{
+	display: block;
+	text-align: center;
+    margin-right: 40px;
+    border-style: solid;
+    border-color: green;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-width: 2px;
+    font-size: 16px;
+
+}
+
+.weed-types:before {
+	left:;
+	width: 50%;
+}
+
+.weed-div {
+	left: 10%;
+}
+
+.weed-paragraph {
+	position: relative;
+	display: block;
+}
+
+.weed2 {
+	padding-top: 10px;
+    position: relative;
+    display: inline-block;
+
+}
+
+.weed3 {
+	padding-top: 10px;
+    position: relative;
+    display: inline-block;
+
+}
+
+.weed4 {
+	padding-top: 10px;
+    position: relative;
+    display: inline-block;
+
+}
+
+/* strain carousel */
+
+.strain-gallery {
+	height: 400px;
+	width:auto;
+}
+
