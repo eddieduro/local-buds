@@ -156,6 +156,61 @@
 	width:auto;
 }
 
+.strains {
+	margin-top: 100px;
+
+}
+
+.strain-card {
+	height: auto;
+	width: auto;
+	max-height: 300px;
+}
+
+.prev {
+    position: relative;
+    z-index: 100;
+    list-style: none;
+    bottom: 175px;
+    padding-left: 20px;
+}
+
+.left-arrow {
+	height: 20px;
+	background: rgba(255,255,255,0.5);
+    border-radius: 50px;
+}
+
+
+.next{
+    position: relative;
+    z-index: 100;
+    list-style: none;
+    bottom: 195px;
+    padding-right: 20px;
+}
+
+.right-arrow {
+	height: 20px;
+	background: rgba(255,255,255,0.5);
+    border-radius: 50px;
+    float: right;
+}
+
+/*buddies header*/
+
+.bud {
+	color:green;
+
+}
+
+/*find us section*/
+
+#find-us {
+	width: 100%;
+	height: 650px;
+	background: rgba(30,30,30,0.2);
+}
 /* scroll to top button */
 #scroll {
     position:fixed;
@@ -187,6 +242,11 @@
     -ms-filter
 }
 
+h1, h2, h3{
+	font-family: 'Roboto', sans-serif; 
+}
+
+/*media queries*/
 @media only screen and (max-width: 993px) {
     .weed-types {
     	height: 1000px;
@@ -194,5 +254,23 @@
     .weed-div {
     	margin-top: 45px;
     }
+
+    .prev {
+    	bottom: 85px;
+    }
+
+    .next {
+    	bottom: 105px;
+    }
+}
+
+@media only screen and (max-width: 776px) {
+	.prev {
+		bottom: 135px;
+	}
+
+	.next {
+		bottom: 155px;
+	}
 }
 
